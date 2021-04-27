@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MRB QA Admin Smoke Suite]">
+  <test thread-count="5" name="MRB QA Admin Smoke Suite(failed)">
+    <classes>
+      <class name="testcases.QA.admin.customerManagement.E2E01_Verify_User_able_to_Suspend_and_Approve_User_Successfully_in_Admin">
+        <methods>
+          <include name="verifySuspendScreen"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testcases.QA.admin.customerManagement.E2E01_Verify_User_able_to_Suspend_and_Approve_User_Successfully_in_Admin -->
+      <class name="testcases.QA.admin.customerManagement.E2E02_Verify_User_able_to_Activate_and_Approve_User_Successfully_in_Admin">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="verifyActivateScreen"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.QA.admin.customerManagement.E2E02_Verify_User_able_to_Activate_and_Approve_User_Successfully_in_Admin -->
+    </classes>
+  </test> <!-- MRB QA Admin Smoke Suite(failed) -->
+</suite> <!-- Failed suite [MRB QA Admin Smoke Suite] -->

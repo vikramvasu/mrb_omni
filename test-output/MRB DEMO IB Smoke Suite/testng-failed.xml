@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MRB DEMO IB Smoke Suite]">
+  <test thread-count="5" name="MRB DEMO IB Smoke Suite(failed)">
+    <classes>
+      <class name="testcases.DEMO.fundTransfer.E2E01_Verify_User_able_to_Transfer_Funds_Successfully_in_MRB">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="verifyAuthScreen"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DEMO.fundTransfer.E2E01_Verify_User_able_to_Transfer_Funds_Successfully_in_MRB -->
+      <class name="testcases.DEMO.registration.E2E01_Verify_User_able_to_Complete_Registration_Process_Using_Account_Details">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyAuthScreen"/>
+          <include name="setData"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.DEMO.registration.E2E01_Verify_User_able_to_Complete_Registration_Process_Using_Account_Details -->
+    </classes>
+  </test> <!-- MRB DEMO IB Smoke Suite(failed) -->
+</suite> <!-- Failed suite [MRB DEMO IB Smoke Suite] -->

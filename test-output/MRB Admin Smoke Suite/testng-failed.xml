@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MRB Admin Smoke Suite]">
+  <test thread-count="5" name="MRB Admin Smoke Suite(failed)">
+    <classes>
+      <class name="testcases.admin.customerManagement.E2E03_Verify_User_able_to_View_Data_of_the_User_in_Admin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="verifySuspendScreen"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.admin.customerManagement.E2E03_Verify_User_able_to_View_Data_of_the_User_in_Admin -->
+      <class name="testcases.admin.customerManagement.E2E02_Verify_User_able_to_Activate_and_Approve_User_Successfully_in_Admin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyActivateApproveScreen"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testcases.admin.customerManagement.E2E02_Verify_User_able_to_Activate_and_Approve_User_Successfully_in_Admin -->
+    </classes>
+  </test> <!-- MRB Admin Smoke Suite(failed) -->
+</suite> <!-- Failed suite [MRB Admin Smoke Suite] -->

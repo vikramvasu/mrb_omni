@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MRB Team 1 Sanity Suite">
+
+	<!-- MRB Automation -->
+
+	<test name="MRB Team 1 Sanity Suite" preserve-order="true" thread-count="1">
+
+		<packages>
+			<package name="testcases.login" />
+			<package name="testcases.registration" />
+			<package name="testcases.fundTransfer" />
+			<package name="testcases.admin.login" />
+			<package name="testcases.admin.customerManagement" />
+		</packages>
+
+	</test>
+
+</suite>
